@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "Movie List";
+}
+
+<title>@ViewData["Title"] - Movie App</title>
+
+<h2>My Movie List</h2>
+<p>That's great!!</p>
+<center>
+    <div class="container-fluid">
+        <div>
+            <img src="https://images.unsplash.com/photo-1504890231393-71b0d15a05f4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                alt="tree"
+                width="200px"
+                height="400px">
+        </div>
+        <div>
+            <h1>Lost in the WILD</h1>
+            <h3>By: Carl Pogi</h3>
+            <p>It is all about a boy lost inside the Amazon Forest. Will the boy be able to return home</p>
+        </div>
+    </div>
+</center>
+<form>
+    <label for="fname">Name:</label>
+    <input type="text" name="name" id="name" placeholder="Name" required>
+    <label for="age">Age:</label>
+    <input type="number" name="age" id="age" placeholder="Age" required>
+    <button type="button" asp-controller="Hello" asp-action="Allowed" >Submit</button>
+</form>

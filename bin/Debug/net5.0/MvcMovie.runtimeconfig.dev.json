@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\AzureCerulean\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\AzureCerulean\\.nuget\\packages"
+    ]
+  }
+}
