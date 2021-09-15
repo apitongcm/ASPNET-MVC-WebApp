@@ -17,7 +17,8 @@ The repo contains random Mini Fun projects like :
 --changing theme using BOOTSWATCH (This is pretty sick !! ) @https://bootswatch.com/
 
 ##Creating a local working Crud Web App for the movie app. 
-http://0localhost{port}/Movies
+http://localhost{port}/Movies
+### calling of the MoviesController.cs
 -- a simple working mvc-app
 -- fully functional CRUD functionalities. 
 --includes Create--Read--Update--Delete
